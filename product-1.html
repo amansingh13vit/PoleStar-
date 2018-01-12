@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ThemesNerd">
+    <meta name="author" content="ThemesNerd">
+    <title>PoleStar</title>
+    <link rel="icon" href="img/fabicon.png">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="css/font-face.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Animate CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style-3.css" rel="stylesheet">
+    <link href="css/product-1.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/colors/default.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- Modernizr -->
+    <script src="js/modernizr.custom.12691.js"></script>
+</head>
+
+<body>
+    <h1 class="sr-only">PoleStar</h1>
+    <!-- nav-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="btn btn-icon-only navbar-toggle"><i class="fa fa-user"></i></a>
+                <a class="btn btn-icon-only navbar-toggle" data-toggle="collapse" data-target=".form-wrap"><i class="fa fa-search"></i></a>
+                <a class="navbar-brand" href="index.html">
+                    <div class="brand-logo"><img alt="themesnerd" src="img/logo.png">
+                    </div>
+                </a>
+            </div>
+            <div class="nav-bar-btn">
+                <a href="#" class="btn btn-icon-only btn-nav btn-nav-desktop"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="btn btn-icon-only btn-nav btn-nav-desktop"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-icon-only btn-nav btn-nav-desktop" data-toggle="collapse" data-target=".form-wrap"><i class="fa fa-search"></i></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="product-1.html" class="active">Product</a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <div class="container">
+            <div class="form-wrap collapse">
+                <form id="form-search" role="search" action="search.php" method="post">
+                    <div class="form-group">
+                        <input id="form-search-input" type="text" class="form-control" name="search-input" value="type to search" onfocus="this.value='';">
+                        <button type="submit"><i class="fa fa-search"></i>
+                        </button>
+                        <button type="reset" data-toggle="collapse" data-target=".form-wrap"><i class="fa fa-close"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /nav-->
+    <!-- Header  -->
+        <div class="container">
+            <div class="form-wrap collapse">
+                <form id="form-search" role="search" action="search.php" method="post">
+                    <div class="form-group">
+                        <input id="form-search-input" type="text" class="form-control" name="search-input" value="type to search" onfocus="this.value='';">
+                        <button type="submit"><i class="fa fa-search"></i>
+                        </button>
+                        <button type="reset" data-toggle="collapse" data-target=".form-wrap"><i class="fa fa-close"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- /nav-->
+    <!-- Header Section -->
+    <header class="hero-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="header-title">Our Products</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /Header Section -->
+    <!-- Products Section -->
+    <section id="products-list">
+        <div class="container">
+            <div class="row">
+                <div class="product-filters col-sm-12">
+                    <a class="filter btn" data-filter="all">all</a>
+                    <a class="filter btn" data-filter=".home-decor">Office chari</a>
+                    <a class="filter btn" data-filter=".furniture">office table</a>
+                    <a class="filter btn" data-filter=".office-decor">Workstation</a>
+                </div>
+                <div id="product-item">
+                    <!-- Product 1 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="1">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/1.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 755A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Black</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 1 -->
+                    <!-- Product 2 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="2">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/2.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 755B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Black</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 2 -->
+                    <!-- Product 3 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="3">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/3.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 755C</b></p>
+                                    <p class="product-title"><b>Visitor Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Black</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 3 -->
+                    <!-- Product 4 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="4">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/4.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 756A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 4 -->
+                    <!-- Product 5 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="5">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/5.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 756B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 5 -->
+                    <!-- Product 6 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="6">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/6.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 756C</b></p>
+                                    <p class="product-title"><b>Visitor Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 6 -->
+                    <!-- Product 7 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="7">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/7.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                     <p class="product-title"><b>PS 757A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Beige</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 7 -->
+                    <!-- Product 8 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="8">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/8.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                     <p class="product-title"><b>PS 757B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Beige</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 8 -->
+                    <!-- Product 9 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="9">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/9.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                     <p class="product-title"><b>PS 757C</b></p>
+                                    <p class="product-title"><b>Visitor Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Beige</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 9 -->
+                    <!-- Product 10 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/10.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 758A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/11.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 758B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/12.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visitor Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/13.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 759A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/14.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 759B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/15.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 759C</b></p>
+                                   <p class="product-title"><b>Visitor Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/16.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 760A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/17.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 760B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/18.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 760C</b></p>
+                                   <p class="product-title"><b>Visitor Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/19.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 761A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/20.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 761B</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/21.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 761C</b></p>
+                                   <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/22.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 762A</b></p>
+                                    <p class="product-title"><b>Visitor chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/23.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 762B</b></p>
+                                    <p class="product-title"><b>Visitor Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/24.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 762C</b></p>
+                                   <p class="product-title"><b>Visitor Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/25.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 763A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/26.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 763B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/27.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 763C</b></p>
+                                   <p class="product-title"><b>Visitor Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/28.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 764A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/29.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 764B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/30.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 764C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/31.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 765A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/32.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 765B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/33.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 765C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/34.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 766A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/11.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 766B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix home-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/office/12.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS766C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/1.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 1001</b></p>
+                                    <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                    <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/2.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 1002</b></p>
+                                    <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                    <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/3.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 1003</b></p>
+                                   <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                   <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                      <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/4.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 1004</b></p>
+                                   <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                   <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/5.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 1005</b></p>
+                                   <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                   <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix furniture" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/table/6.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 1003</b></p>
+                                   <p class="product-title"><b>Table Set With Pedetral & Side Return</b></p>
+                                   <h4 class="product-price">Available Colour(s): Wenge</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/1.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="10">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/2.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 758A</b></p>
+                                    <p class="product-title"><b>High Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 10 -->
+                    <!-- Product 11 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="11">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/3.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                    <p class="product-title"><b>PS 758B</b></p>
+                                    <p class="product-title"><b>Medium Back Revolving Chair</b></p>
+                                    <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 11 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/4.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/5.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/6.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/7.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/8.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                    <!-- Product 12 -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix office-decor" data-my-order="12">
+                        <figure class="wow fadeIn">
+                            <img class="img-responsive" src="img/work/9.jpg" alt="themesnerd">
+                            <figcaption>
+                                <a href="product-details-1.html">
+                                   <p class="product-title"><b>PS 758C</b></p>
+                                   <p class="product-title"><b>Visior Chair</b></p>
+                                   <h4 class="product-price">Available Colour(s): Brown</h4>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <!-- /Product 14 -->
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="row">
+                <div aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li class="prev">
+                            <a href="#" aria-label="Previous" class="disable">
+                                <span aria-hidden="true">previous</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="pagination pagination-number text-center">
+                        <li class="links active"><a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a>
+                        </li>
+                        <li><a href="#">3</a>
+                        </li>
+                        <li><a href="#">4</a>
+                        </li>
+                        <li><a href="#">5</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-ellipsis-h"></i></a>
+                        </li>
+                    </ul>
+                    <ul class="pagination">
+                        <li class="next">
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /Pagination -->
+        </div>
+    </section>
+    <!-- /Products Section -->
+    <!-- Exclusive Promotions -->
+    <!-- /Exclusive Promotions -->
+    <!-- Call to Action -->
+   
+    <!-- /Call to Action -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 footer-links">
+                    <h4 class="link-title">Contact Us</h4>
+                    <ul>
+                        <li>
+                            <h6>Head Office</h6>
+                        </li>
+                        <li>
+                            <p>132A Bridge Road Richmond VIC
+                                <br> Australia.</p>
+                        </li>
+                        <li>
+                            <p>Talk to us on 1300 132</p>
+                        </li>
+                        <li><a href="mailto:example@email.com?Subject=Your%20message" target="_top">info@interior.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 footer-links">
+                    <h4 class="link-title">Useful Information</h4>
+                    <div class="col-xs-6 no-padding">
+                        <ul class="xtra-links">
+                            <li><a href="#">Resources</a>
+                            </li>
+                            <li><a href="#">Blog</a>
+                            </li>
+                            <li><a href="#">Clients</a>
+                            </li>
+                            <li><a href="#">Trust</a>
+                            </li>
+                            <li><a href="#">Career</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6 no-padding">
+                        <ul class="xtra-links">
+                            <li><a href="#">Sales terms</a>
+                            </li>
+                            <li><a href="#">Customer Care</a>
+                            </li>
+                            <li><a href="#">Privacy Policy</a>
+                            </li>
+                            <li><a href="#">Delivery</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4 col-sm-12 footer-links">
+                    <h4 class="link-title">Let's Stay in Touch!</h4>
+                    <p>Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                    <p>We never send spam. You can unsubscribe at anytime.</p>
+                    <form id="newsletter-signup" action="#" method="post">
+                        <input class="form-control" type="text" id="email" name="subscribe-input" required="" maxlength="50" placeholder="email address">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+                <div class="credit">
+                    <div class="col-xs-12 text-center visible-sm-block visible-xs-block">
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <p class="credit-text">© Copyright - INTERIOR 2016. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center hidden-sm hidden-xs">
+                        <ul class="list-inline social-buttons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <p class="brand-credit">Design & Developed by <a href="http://bit.ly/2faVHOK"><b>ThemesNerd</b></a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

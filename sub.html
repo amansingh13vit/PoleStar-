@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	*{
+		margin:0px;
+		padding: 0px;
+	}
+		#container ul{
+			list-style: none;
+		}
+		#container ul li{
+			background-color: green;
+			width: 150px;
+			border: 1px solid white;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			float:left;
+			color: white;
+			font-size: 18px;
+			position: relative;
+
+		}
+		#container ul li:hover{
+			background-color: red;
+		}
+		#container ul ul{
+			display: none;
+		}
+		#container ul li:hover > ul{
+			display: block;
+
+		}
+		#container ul ul ul {
+			margin-left: 150px;
+			top: 0px;
+			position: absolute;
+		}
+
+	</style>
+	<title>Sub </title>
+</head>
+<body>
+	<div id="container">
+		<ul>
+			<li>Home</li>
+			<li>About</li>
+			<li>Cat
+			<ul>
+				<li>cat1</li>
+				<li>cat1
+					<ul>
+					<li>child</li>
+					<li>child</li>
+					<li>child</li>
+					</ul>
+
+				</li>
+				<li>cat1</li>
+			</ul>
+		</li>
+			<li>DOG</li>
+		</ul>
+
+</body>
+</html>
